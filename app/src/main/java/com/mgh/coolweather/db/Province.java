@@ -1,5 +1,7 @@
 package com.mgh.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 public class Province extends DataSupport {
     private int id;//每个实体类都有的字段
     private String provinceName;//记录省份名字
